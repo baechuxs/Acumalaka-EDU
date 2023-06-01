@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acumalaka Edu</title>
+  <link rel="icon" href="assets/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="row vh-100">
+    <div class="col-sm-2 bg-light vh-100" style="background: linear-gradient(90deg, #129badd2, #16a387)">
+      <!-- side bar -->
+      <nav class="navbar navbar-expand-lg vh-100" id="nav">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav flex-column mx-auto ps-4">
+              <li>
+                <img src="assets/logo.png" alt="" class="navbar-brand" id="logo" style="width: 100px">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#"><iconify-icon icon="ic:outline-space-dashboard" width="15" height="15"></iconify-icon> Dashboard</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><iconify-icon icon="material-symbols:book-outline" width="15" height="15"></iconify-icon> Kursus </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Course 1</a></li>
+                  <li><a class="dropdown-item" href="#">Course 2</a></li>
+                  <li><a class="dropdown-item" href="#">Course 3</a></li>
+                  <li><a class="dropdown-item" href="#">Course 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><iconify-icon icon="ph:pen-bold" width="15" height="15"></iconify-icon> Latihan </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Exercise 1</a></li>
+                  <li><a class="dropdown-item" href="#">Exercise 2</a></li>
+                  <li><a class="dropdown-item" href="#">Exercise 3</a></li>
+                  <li><a class="dropdown-item" href="#">Exercise 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><iconify-icon icon="material-symbols:forum-outline-rounded" width="15" height="15"></iconify-icon> Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><iconify-icon icon="gg:profile" width="15" height="15"></iconify-icon> Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><iconify-icon icon="ep:setting" width="15" height="15"></iconify-icon> Pengaturan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"><iconify-icon icon="ic:outline-log-out" width="15" height="15"></iconify-icon> Logout</a>
+              </li>
+              <div class="row" style="padding-top: 3rem"></div>
+              <li class="nav-item pt-5 pe-2">Join Our Community</li>
+              <div class="row">
+                <div class="col ps-1">
+                  <iconify-icon icon="skill-icons:discord" width="35" class="pt-3 px-0" style="display: flex"></iconify-icon>
+                </div>
+                <div class="col px-0">
+                  <iconify-icon icon="logos:telegram" width="35" class="pt-3 px-0" style="display: flex"></iconify-icon>
+                </div>
+                <div class="col pe-1">
+                  <iconify-icon icon="logos:facebook" width="35" class="pt-3 px-0" style="display: flex"></iconify-icon>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- akhir side bar -->
+    </div>
+
+    <div class="col-sm-10 overflow-auto overflow-x-hidden p-0" style="background-color: #ffffff; height:100%">
+      <!-- BREADCRUMB -->
+      <div class="row bg-dark">
+        <div class="col pt-2 text-light ps-4" style="background-color: #0C1B4D">
+          <nav style="--bs-breadcrumb-divider: '>'; background-color: #0C1B4D" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#" style="text-decoration: none; color: #ffff">Dashboard</a></li>
+              <li class="breadcrumb-item active" aria-current="page"></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- AKHIR BREADCRUMB -->
+
+      <div class="row justify-content-around mt-4">
+        <!-- Aktivitas -->
+        <div class="col-md-6 text-center p-3 bg-success bg-opacity-10 border border-success rounded-4">
+          <div class="row">
+            <div class="col h4 pb-2 mb-4 text-success border-bottom border-success">Aktivitas</div>
+          </div>
+          <div class="row">
+            <div class="col"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi soluta est modi ipsum placeat id maxime ipsam, deleniti sapiente eveniet quae optio consequuntur assumenda quisquam porro nemo doloribus incidunt dignissimos quod at error vero. Magnam nulla, modi commodi deserunt velit soluta assumenda aspernatur ducimus ipsum eum nemo provident. Unde, magni!</div>
+          </div>
+        </div>
+        <!-- Akhir Aktivitas -->
+
+        <!-- Riwayat -->
+        <div class="col-md-4 text-center p-3 bg-success bg-opacity-10 border border-success rounded-4">
+          <div class="row">
+            <div class="col h4 pb-2 mb-4 text-success border-bottom border-success">Riwayat</div>
+          </div>
+          <div class="row">
+            <div class="col"></div>
+          </div>
+        </div>
+        <!-- Akhir riwayat -->
+
+        <div class="row justify-content-around mt-5">
+          <!-- progress -->
+          <div class="col-md-5 text-center p-3 bg-success bg-opacity-10 border border-success rounded-4">
+            <div class="row">
+              <div class="col h4 pb-2 mb-4 text-success border-bottom border-success">Berlangsung</div>
+            </div>
+            <div class="row">
+              <div class="col">lorem</div>
+            </div>
+          </div>
+          <!-- Akhir progress -->
+
+          <!-- Notifikasi -->
+          <div class="col-md-5 text-center p-3 bg-success bg-opacity-10 border border-success rounded-4">
+            <div class="row">
+              <div class="col h4 pb-2 mb-4 text-success border-bottom border-success">Notifikasi</div>
+            </div>
+            <div class="row">
+              <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolores fugiat pariatur officiis quisquam reprehenderit beatae, incidunt minima necessitatibus impedit voluptatem, iusto at. Nulla consequatur nostrum ullam consequuntur voluptates iste similique odio ipsam recusandae iusto sed, iure odit! Repudiandae atque tempora quisquam sunt non assumenda obcaecati recusandae nostrum omnis accusamus officiis, dicta laboriosam laborum quos debitis. Error sapiente consectetur optio ex esse officia pariatur sequi quas nostrum eos sint, earum nam cupiditate accusamus a. Perspiciatis officia quidem quam cumque reiciendis obcaecati consequatur. Aut quisquam, reprehenderit deleniti itaque cupiditate dolores amet rem laboriosam placeat iste dolor a, hic, exercitationem quasi laudantium.</div>
+            </div>
+          </div>
+          <!-- Akhir riwayat -->
+
+          <!-- footer -->
+          <footer class="text-white text-center pb-0 pt-2 mt-5" style="background-color: #0C1B4D">
+            <p>From Deepest Of Our Soul <br> &#169; 2023 Acumalaka Edu</p>
+          </footer>
+          <!-- akhir footer -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-B6h08izwYAnuMMFW2c94VR4i00RBB2/QYQeBROqfE8/wmG7erR5mzcRtv7zWiMH5" crossorigin="anonymous"></script>
+  </body>
+</html>
