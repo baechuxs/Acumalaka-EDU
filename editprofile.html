@@ -39,34 +39,43 @@
     <!-- AKhir Navbar -->
 
     <!-- body -->
-    <section id="login">
-      <div class="container-fluid text-light" style="height: 50px">
-        <div class="row justify-content-center">
-          <div class="col-md-4 d-none d-lg-block" style="padding-top:70px; ; padding-left: 1px">
-            <img src="assets/forgetpassword.png" width="970" alt="belajar.png" />
+      <section id="profile" style="background-color: transparent">
+        <div class="container text-light" style="padding-top: 5rem">
+          <!-- Form profile -->
+          <div id="form" class="mx-auto" style="height: 600px; width: 1000px; border-radius: 25px; display: flex;">
+            <div class="form-container" style="flex: 1; padding: 50px;">
+              <form>
+                <div class="mb-2 pt- px-4">
+                    <label for="exampleInputPassword1" class="form-label" >Nama
+                  <input style="width:350px;border-radius: 25px;border-radius: 25px;" type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama" />
+                </div>
+                <div class="mb-2 px-4">
+                    <label for="exampleInputPassword1" class="form-label">Alamat
+                  <input style="width:350px;border-radius: 25px;"type="alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat" />
+                </div>
+                <div class="mb-2 px-4">
+                    <label for="exampleInputPassword1" class="form-label">Asal Sekolah
+                  <input style="width:350px;border-radius: 25px;"type="asalsekolah" class="form-control" id="password" placeholder="Asal Sekolah" />
+                </div>
+                <div class="mb-2 px-4">
+                    <label for="exampleInputPassword1" class="form-label">Kelas
+                  <input style="width:350px;border-radius: 25px;"type="kelas" class="form-control" id="password" placeholder="Kelas" />
+                </div>
+                <div class="mb-2 px-4">
+                    <label for="exampleInputPassword1" class="form-label">Jurusan
+                  <input style="width:350px;border-radius: 25px;"type="jurusan" class="form-control" id="password" placeholder="Jurusan" />
+                </div>
+                <a href="profile.html" class="btn btn-outline-light" style="margin: 10px 150px">Update</a>
+                <a style="margin: 10px 170px" href="profile.html"><strong>Back</strong></a>
+              </form>
+            </div>
+            <div class="image-container" style="flex: 2;">
+              <img src="assets/personaldata.png" alt="Gambar" style="width: 90%; padding-top: 25px;object-fit: cover;">
+            </div>
           </div>
-
-          <!-- Form Login -->
-          <div id="form" class="col-md-4 offset-4 pt-4" style="height: 600px; width: 300px; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px">
-            <iconify-icon icon="game-icons:frog-foot" style="font-size: 100px; padding: 80px 0px 0px 90px"></iconify-icon>
-            <form>
-              <div class="mb-3 pt-3 px-3">
-                <label for="exampleInputEmail1" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-              </div>
-              <div class="mb-2 pt-10 px-3" style="text-align: justify" >
-                <p style="font-size: 16px">Untuk membantu Anda dalam mendapatkan kembali rincian akun Anda, mohon masukkan alamat email yang terhubung dengan akun Anda agar kami dapat memulai pencarian dan memberikan informasi yang diperlukan.</p>
-              </div>
-              <a href="login.html" class="btn btn-outline-light" style="margin: 0px 100px">Submit</a>
-            <a style="margin: 10px 120px" href="login.html"><strong>Back</strong></a>
-          </div>
-
-          <div class="col-md-1"></div>
-          <!-- akhir dari form login -->
+          <!-- akhir dari form profile -->
         </div>
-      </div>
-    </section>
-    <!-- akhir body -->
+      </section>
 
     <!-- footer -->
     <footer class="text-white text-center pb-2 pt-2">
