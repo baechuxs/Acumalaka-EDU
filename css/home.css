@@ -73,17 +73,24 @@ footer {
   font-size: 14px;
   background-color: #03041df8;
 }
+
+.carousel-inner {
+  width: auto; /* Menggunakan lebar yang sesuai dengan isi carousel */
+  margin: 0 auto; /* Mengatur posisi carousel di tengah */
+}
+
 .carousel-item {
   align-items: center;
   justify-content: center;
-  height: 400px; /* Sesuaikan dengan tinggi yang diinginkan */
-  width: 90%; /* Atur lebar carousel sesuai kebutuhan Anda */
-  margin: 0 auto; /* Untuk mengatur posisi carousel di tengah */
-  border-radius: 10px; /* Atur radius sesuai kebutuhan Anda */
+  height: 350px; /* Sesuaikan dengan tinggi yang diinginkan */
+  padding: 0 60px; /* Menambahkan jarak ke samping */
 }
 
 .carousel-item img {
   object-fit: cover; /* Memastikan gambar memenuhi area carousel */
-  width: 100%; /* Menyesuaikan lebar gambar dengan carousel */
   height: 100%; /* Menyesuaikan tinggi gambar dengan carousel */
+  border-radius: 20px;
+}
+.carousel-container {
+  margin-top: 0px; /* Sesuaikan dengan nilai yang diinginkan */
 }
