@@ -16,21 +16,37 @@ body {
   }
 
 /* 01/GET IN TOUCH */
-.getint{
+.acumalakateks{
 position: absolute;
 width: 445px;
 height: 138px;
-left: 140px;
-top: 155px;
+left: 1000px;
+top: 175px;
 
 font-family: 'Titillium Web';
 font-style: normal;
 font-weight: 700;
-font-size: 54px;
-line-height: 97px;
+font-size: 40px;
+line-height: 45px;
 
 color: #000;
 }
+
+.teks{
+    position: absolute;
+    width: 400px;
+    height: 138px;
+    left: 1000px;
+    top: 350px;
+    
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #423535;
+    }
 
 .call{
   margin-top: 20px;
@@ -129,31 +145,42 @@ color: #000;
 } 
 
 footer {
-  position: absolute;
-  width: 100%;
-  height: 300px;
-  font-size: 14px;
-  background-color: #252641;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 39px; 
-  text-align: center; 
-  letter-spacing: 0.04em;
-}
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    font-size: 14px;
+    background-color: #252641;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 39px; 
+    text-align: center; 
+    letter-spacing: 0.04em;
+  }
+  
+  .divider {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 1px;
+    background-color: white;
+    left: 0;
+    transform: translateX(-50%);
+  }
+  
+  .divider + span {
+    padding-left: 8px;
+  }
 
-.divider {
-  position: absolute;
-  content: '';
-  height: 100%;
-  width: 1px;
-  background-color: white;
-  left: 0;
-  transform: translateX(-50%);
-}
 
-.divider + span {
-  padding-left: 8px;
-}
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
 
-
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
