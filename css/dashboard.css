@@ -1,59 +1,97 @@
-.navbar {
-    padding-top: 10px; /* memberi space untuk logo pada bagian atas */
-    padding-bottom: 10px;
-  }
-  
-  .navbar-brand {
-    margin-right: 50px; /* memberi space antara logo dengan menu */
-    padding-bottom: 40px;
-  }
-  
-  .dropdown-menu {
-    animation: fadeInDown 0.7s;
-  }
-  
-  @keyframes fadeInDown {
-    from {
-      opacity: 0;
-      transform: translate3d(0, -10%, 0);
-    }
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translate3d(0, 10%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  
-  .navbar-nav .nav-link:hover {
-    background-color: #ccc; /* warna elegan ketika di hover */
-    color: #fff; /* warna teks ketika di hover */
-  }
-  
-  #nav {
-    background: linear-gradient(90deg, #129badd2, #16a387);
-  }
-  
-  body {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    height: 100%;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-  }
 
-  
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: linear-gradient(90deg, #f8fefc, #e3e7e7);
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.navbar {
+  padding-top: 5px; /* memberi space untuk logo pada bagian atas */
+  padding-bottom:5px;
+  background-color:#03041df8;
+}
+.carousel-inner {
+  width: auto; /* Menggunakan lebar yang sesuai dengan isi carousel */
+  margin: 0 auto; /* Mengatur posisi carousel di tengah */
+}
+
+.carousel-item {
+  align-items: center;
+  justify-content: center;
+  height: 350px; /* Sesuaikan dengan tinggi yang diinginkan */
+  padding: 0 60px; /* Menambahkan jarak ke samping */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Memastikan gambar memenuhi area carousel */
+  height: 100%; /* Menyesuaikan tinggi gambar dengan carousel */
+  border-radius: 20px;
+}
+.carousel-container {
+  margin-top: 0px; /* Sesuaikan dengan nilai yang diinginkan */
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  font-size: 14px;
+  background-color: #252641;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 39px; 
+  text-align: center; 
+  letter-spacing: 0.04em;
+}
+
+.divider {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 1px;
+  background-color: white;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.divider + span {
+  padding-left: 8px;
+}

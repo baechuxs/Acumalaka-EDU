@@ -17,7 +17,7 @@ body {
 
 /* 01/GET IN TOUCH */
 .getint{
-position: absolute;
+position: fixed;
 width: 445px;
 height: 138px;
 left: 140px;
@@ -27,7 +27,7 @@ font-family: 'Titillium Web';
 font-style: normal;
 font-weight: 700;
 font-size: 54px;
-line-height: 97px;
+line-height: 60px;
 
 color: #000;
 }
@@ -130,6 +130,7 @@ color: #000;
 
 footer {
   position: absolute;
+  margin-top: 100px;
   width: 100%;
   height: 300px;
   font-size: 14px;
