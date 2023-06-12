@@ -171,16 +171,17 @@ footer {
   .divider + span {
     padding-left: 8px;
   }
-
-
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 1px;
+    justify-items: start;
   }
 
   .grid-item {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
+    aspect-ratio: 1/1;
+    transform: scale(0.4);
   }
