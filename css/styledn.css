@@ -1,4 +1,4 @@
-// css reset
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,8 +43,24 @@ table {
   border-spacing: 0;
 }
 
-//----------------------
 
-body {
-  overflow: hidden;
+.carousel-inner {
+  width: auto; /* Menggunakan lebar yang sesuai dengan isi carousel */
+  margin: 0 auto; /* Mengatur posisi carousel di tengah */
+}
+
+.carousel-item {
+  align-items: center;
+  justify-content: center;
+  height: 350px; /* Sesuaikan dengan tinggi yang diinginkan */
+  padding: 0 60px; /* Menambahkan jarak ke samping */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Memastikan gambar memenuhi area carousel */
+  height: 100%; /* Menyesuaikan tinggi gambar dengan carousel */
+  border-radius: 20px;
+}
+.carousel-container {
+  margin-top: 0px; /* Sesuaikan dengan nilai yang diinginkan */
 }
