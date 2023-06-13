@@ -17,7 +17,7 @@ body {
 
 /* 01/GET IN TOUCH */
 .getint{
-position: fixed;
+position: absolute;
 width: 445px;
 height: 138px;
 left: 140px;
@@ -39,7 +39,7 @@ position: absolute;
 width: 535px;
 height: 113px;
 left: 147px;
-top: 360px;
+top: 300px;
 color: #000;
 }
 
@@ -49,7 +49,7 @@ position: absolute;
 width: 523px;
 height: 82px;
 left: 159px;
-top: 480px;
+top: 420px;
 color: #000;
 }
 
@@ -60,7 +60,7 @@ position: absolute;
 width: 523px;
 height: 88px;
 left: 159px;
-top: 540px;
+top: 480px;
 color: #000;
 }
 
