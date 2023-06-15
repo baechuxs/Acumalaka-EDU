@@ -10,75 +10,100 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
-      <div class="container">
-        <img src="assets/logo.png" id="logo" width="50px" class="pe-2" />
-        <a class="navbar-brand" href="#">Acumalaka</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Us</a>
-            </li>
-          </ul>
-        </div>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #129badd2">
+    <div class="container">
+      <img src="assets/logo.png" id="logo" width="50px" class="pe-2" />
+      <a class="navbar-brand" href="#">Acumalaka</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="dashboard.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #129badd2">
+                Menu
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+                <li><a class="dropdown-item" href="setting.html">Settings</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- AKhir Navbar -->
+    </div>
+  </nav>
+  <!-- AKhir Navbar -->
 
     <!-- body -->
-      <section id="profile" style="background-color: transparent">
+      <section id="profile" style="background-color: transparent;">
         <div class="container text-light" style="padding-top: 5rem">
           <!-- Form profile -->
           <div id="form" class="mx-auto" style="height: 600px; width: 1000px; border-radius: 25px; display: flex;">
-            <div class="form-container" style="flex: 1; padding: 50px;">
+            <div class="form-container" style="flex: 1; padding: 20px;">
               <form>
-                <div class="mb-2 pt- px-4">
-                    <label for="exampleInputPassword1" class="form-label" >Nama
-                  <input style="width:350px;border-radius: 25px;border-radius: 25px;" type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama" />
-                </div>
-                <div class="mb-2 px-4">
+                <div class="px-4">
                     <label for="exampleInputPassword1" class="form-label">Alamat
-                  <input style="width:350px;border-radius: 25px;"type="alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat" />
+                  <input style="width:375px;border-radius: 15px;"type="alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat" />
                 </div>
-                <div class="mb-2 px-4">
+                <div class="px-4">
                     <label for="exampleInputPassword1" class="form-label">Asal Sekolah
-                  <input style="width:350px;border-radius: 25px;"type="asalsekolah" class="form-control" id="password" placeholder="Asal Sekolah" />
+                  <input style="width:375px;border-radius: 15px;"type="asalsekolah" class="form-control" id="password" placeholder="Asal Sekolah" />
                 </div>
-                <div class="mb-2 px-4">
+                <div class="px-4">
                     <label for="exampleInputPassword1" class="form-label">Kelas
-                  <input style="width:350px;border-radius: 25px;"type="kelas" class="form-control" id="password" placeholder="Kelas" />
+                  <input style="width:375px;border-radius: 15px;"type="kelas" class="form-control" id="password" placeholder="Kelas" />
                 </div>
-                <div class="mb-2 px-4">
+                <div class="px-4">
                     <label for="exampleInputPassword1" class="form-label">Jurusan
-                  <input style="width:350px;border-radius: 25px;"type="jurusan" class="form-control" id="password" placeholder="Jurusan" />
+                  <input style="width:375px;border-radius: 15px;"type="jurusan" class="form-control" id="password" placeholder="Jurusan" />
                 </div>
-                <a href="profil.html" class="btn btn-outline-light" style="margin: 10px 150px">Update</a>
-                <a style="margin: 10px 170px" href="profil.html"><strong>Back</strong></a>
+                <div class="pt- px-4">
+                  <label for="exampleInputPassword1" class="form-label" >Nama Orangtua
+                <input style="width:375px;border-radius: 15px;" type="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Orangtua" />
+              </div>
+              <div class="px-4">
+                  <label for="exampleInputPassword1" class="form-label">Email
+                <input style="width:375px;border-radius: 15px;"type="alamat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
+              </div>
+              <div class="px-4">
+                  <label for="exampleInputPassword1" class="form-label">No telepon
+                <input style="width:375px;border-radius: 15px;"type="asalsekolah" class="form-control" id="password" placeholder="No Telepon" />
+              </div>
               </form>
             </div>
-            <div class="image-container" style="flex: 2;">
-              <img src="assets/personaldata.png" alt="Gambar" style="width: 90%; padding-top: 25px;object-fit: cover;">
+            <div class="form-container" style="flex: 1; padding: 20px;">
+              <form>
+                <div class=" px-4">
+                    <label for="exampleInputPassword1" class="form-label">Status
+                  <input style="width:375px;border-radius: 15px;height: 125px;"type="kelas" class="form-control" id="password" placeholder="Status" />
+                </div>
+                <div class="px-4">
+                    <label for="exampleInputPassword1" class="form-label">Motivasi
+                  <input style="width:375px;border-radius: 15px;height: 125px;"type="jurusan" class="form-control" id="password" placeholder="Motivasi" />
+                </div>
+                <input type="submit" value="Submit" style="margin: 10px 175px;margin-top: 170px;">
+                <a style="margin: 10px 190px" href="profil.html"><strong>Back</strong></a>
+              </form>
             </div>
-          </div>
           <!-- akhir dari form profile -->
         </div>
       </section>
 
-<!-- footer -->
-<footer class="text-white text-center pb-2 pt-2">
+ <!-- footer -->
+
+ <footer class="text-white text-center pb-2 pt-2 bg-dark">
   <div class="d-flex align-items-center justify-content-center" style="margin-top: 20px;">
     <img src="assets/logo.png" id="logo" width="50px" class="pe-2" />
     <div class="position-relative">
@@ -97,12 +122,13 @@
       <a href="#" class="btn btn-outline-light ms-2" style="border-radius: 25px; background-color:#49BBBD;">Kirim</a>
     </div>
   </div>
-  
+
   <div style="margin-top: 20px;">
     <p>From Deepest Of Our Soul <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.youtube.com/channel/UCDjDYyFOhsSLtTJ31nniW-A" class="text-white fw-bold">Acumalaka Team</a></p>
   </div>
 </footer>
 <!-- akhir footer -->
+
 
     <!-- Iconify -->
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
